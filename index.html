@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <title>TinDog</title>
-    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- CSS Style Sheets -->
+
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/107e144f08.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts -->
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -28,10 +37,13 @@
   </head>
 
   <body>
-    <section id="title">
+    <section id="title" >
+      <div class="container-fluid">
+
       <!-- Nav Bar -->
+
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Tindog</a>
+        <a class="navbar-brand" href="">tindog</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -59,11 +71,12 @@
       </nav>
 
       <!-- Title -->
+
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <button type="button" class="btn btn-dark btn-lg"><span class="fab fa-apple"></span> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
           <img src="images/iphone6.png" alt="iphone-mockup" />
@@ -82,6 +95,7 @@
 
       <h3>Guaranteed to work.</h3>
       <p>Find the love of your dog's life or your money back.</p>
+    </div>
     </section>
 
     <!-- Testimonials -->
