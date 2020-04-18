@@ -30,7 +30,7 @@ p {
 /* Title Section*/
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -71,13 +71,16 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  margin-left: 98px;
+  right: 20%;
+  position: absolute;
 }
 
 /* Feature Section*/
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box {
@@ -136,4 +139,41 @@ p {
 
 .card {
   height: 25rem;
+}
+
+/* Call to action section */
+
+#cta {
+  background: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-header {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* footer section */
+
+#footer {
+  text-align: center;
+  padding: 5% 13%;
+}
+
+.icon {
+  margin: 5px 10px 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
